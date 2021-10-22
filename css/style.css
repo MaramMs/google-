@@ -1,0 +1,125 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav ul{
+ list-style: none;
+ display: flex;
+ 
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+.logo{
+    background-color: mediumseagreen;
+    border-radius: 50%;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+}
+.content{
+    position: relative;
+    height: 500px;
+}
+.content img{
+width: 400px;
+margin: auto;
+display: block;
+}
+
+.content .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+  
+   
+}
+.content .info input{
+width: 100%;
+border-radius: 20px;
+outline: none;
+border:1.5px solid #ccc;
+padding: 10px;
+}
+.content .info a.btn{
+    text-decoration: none;
+    background-color: #dadce038;
+    padding: 10px;
+    margin: 10px 5px 0 0 ;
+    color: #70757a;
+    display: inline-block;
+}
+/* .content .info a:hover{
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px;
+    ;
+} */
+.content  .info span{
+    color: #70757a;
+    font-size: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.content  .info span a{
+ text-decoration: none;
+}
+footer{
+    background-color:#cccccc54;
+    padding-top: 10px;
+  
+}
+footer p {
+    color: #70757a;
+    margin: 0 0 0 50px;
+ 
+} 
+
+footer .list{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding-bottom: 5px;
+
+}
+footer ul.list1 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-between;
+
+
+}
+
+footer ul.list1 li a{
+text-decoration: none;
+display: inline-block;
+margin-left: 10px;
+color: #70757a;
+
+}
+footer ul.list2{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+    padding-right: 20px;
+}
+footer ul.list2 li a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    color: #70757a;
+    }
